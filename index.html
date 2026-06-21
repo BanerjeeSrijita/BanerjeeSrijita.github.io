@@ -3,112 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic homepage of Srijita Bandopadhyay.">
+  <meta name="description" content="Academic homepage of Srijita Bandopadhyay, Ph.D. student at Michigan State University.">
   <title>Srijita Bandopadhyay</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="page">
     <section id="home" class="hero">
       <div class="hero-text">
-        <h1> Srijita Bandopadhyay</h1>
+        <p class="kicker">Michigan State University · SLIM Lab</p>
+        <h1>Srijita Bandopadhyay</h1>
         <p>
           I am a Ph.D. student in the Department of
-          <span class="highlight">Computational Mathematics, Science, and Engineering</span>
-          at Michigan State University. I am a member of the
+          <a href="https://cmse.msu.edu/" target="_blank" rel="noreferrer">Computational Mathematics, Science, and Engineering</a>
+          at Michigan State University. I am a Graduate Research Assistant in the
           <a href="https://slim-msu.github.io/" target="_blank" rel="noreferrer">SLIM Group</a>,
-          where I am advised by
+          advised by
           <a href="https://sites.google.com/site/sairavishankar3/home?authuser=0" target="_blank" rel="noreferrer">Saiprasad Ravishankar</a>.
         </p>
         <p>
-          My research focuses on inverse problems in imaging and deep learning algorithms for
-          image reconstruction. I am also interested in medical image analysis, machine learning
-          for healthcare, and computer vision.
+          My research sits at the intersection of machine learning, optimization, 3D reconstruction,
+          inverse problems, and computational imaging. I develop data-efficient methods for image
+          restoration and reconstruction from sparse, noisy, or low-dose measurements.
         </p>
         <p>
-          I earned my Bachelor's degree in Electronics and Communication Engineering, with a minor
-          in Computer Science, from the University of Engineering and Management, Kolkata.
+          Before joining MSU, I earned my Bachelor's degree in Electronics and Communication Engineering
+          from the University of Engineering and Management, Kolkata, where I worked on deep learning,
+          medical imaging, and agricultural disease recognition.
         </p>
+
         <nav class="quick-links" aria-label="Profile links">
           <a href="mailto:bandopa1@msu.edu">Email</a>
           <span>|</span>
           <a href="https://scholar.google.com/citations?user=dGEIcIgAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
           <span>|</span>
-          <a href="https://drive.google.com/file/d/1KGslZfS7vOVUoBV20FYDMxDjI72Id9LG/view?usp=sharing" target="_blank" rel="noreferrer">CV</a>
+          <a href="SB-RESUME.pdf" target="_blank" rel="noreferrer">CV</a>
           <span>|</span>
           <a href="https://www.linkedin.com/in/srijitab" target="_blank" rel="noreferrer">LinkedIn</a>
           <span>|</span>
           <a href="https://www.researchgate.net/profile/Srijita-Bandopadhyay" target="_blank" rel="noreferrer">ResearchGate</a>
         </nav>
-
-        <details class="short-bio">
-          <summary>Short bio</summary>
-          <p>
-            Before joining MSU, I worked on deep learning and computer vision methods for object
-            detection, disease classification, medical imaging, and agricultural applications under
-            the guidance of Prof. Soumen Banerjee.
-          </p>
-        </details>
       </div>
 
       <figure class="portrait-wrap">
-        <img
-          class="portrait"
-          src="SB.jpeg"
-          alt="Srijita Bandopadhyay"
-        >
+        <img class="portrait" src="SB.jpeg" alt="Srijita Bandopadhyay">
       </figure>
     </section>
 
     <section class="focus-box" aria-label="Research focus">
       <strong>Research focus:</strong>
-      <span>Inverse problems, image reconstruction, deep learning, medical image analysis.</span>
+      <span>Inverse problems, computational imaging, 3D CT reconstruction, image restoration, deep learning.</span>
     </section>
 
     <section id="news" class="section">
       <h2>News</h2>
       <ul class="news-list">
-        <li><span class="date">2024</span> Joined Michigan State University as a Ph.D. student in CMSE and became a member of the SLIM Group.</li>
-        <li><span class="date">2024</span> Papers accepted at IEEE IATMSI-2024 and CIPR-2024.</li>
-        <li><span class="date">2023</span> Received the Chancellor's Award for Academic Excellence.</li>
+        <li><span class="date">2026</span> Flash talk on self-supervised high-corruption image restoration for low-dose CT at CVPR Vision '26.</li>
+        <li><span class="date">2026</span> Paper on fractional-gradient sparsity and sequential deep image priors accepted at CVPR 2026.</li>
+        <li><span class="date">2025</span> Joined SLIM Lab at Michigan State University as a Graduate Research Assistant.</li>
       </ul>
     </section>
 
     <section id="research" class="section">
       <h2>Research</h2>
       <p>
-        My research interests include biomedical disease diagnosis, machine learning for healthcare,
-        medical image analysis, neuroimaging, cognitive science, and agricultural disease recognition.
+        I work on optimization-inspired reconstruction models that combine unrolled algorithms,
+        learned priors, sparsity regularization, and deep image priors. I am especially interested
+        in settings where clean targets, dense measurements, or paired training data are difficult to obtain.
       </p>
     </section>
 
     <section id="publications" class="section">
-      <h2>Publications</h2>
+      <h2>Selected Publications</h2>
       <ol class="publication-list">
         <li>
-          <strong>Diagnosis of Intestinal Diseases Using Endoscopy Images Based on Encoder-Attention DeepNet.</strong>
-          Kyamelia Roy, Sheli Sinha Chaudhuri, Jaroslav Frnda, <strong>Srijita Bandopadhyay</strong>, Soumen Banerjee and Jan Nedoma. Under review, 2024.
-        </li>
-        <li>
-          <strong>Leveraging Data Generation Algorithms To Improve Imbalanced Binary Classification.</strong>
-          <strong>Srijita Bandopadhyay</strong>, Srimonti Dutta, Imran Haider, Bhavaraju Anuraag, Jerry Zhu and Saad Ahmed Bazaz. Accepted in IEEE IATMSI-2024.
+          <strong>Fractional-gradient Sparsity with Autoencoding Sequential Deep Image Prior for 3D CT Reconstruction.</strong>
+          Haijie Yuan, Chaoyan Huang, <strong>Srijita Bandopadhyay</strong>, Liyue Shen, and Saiprasad Ravishankar.
+          Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.
         </li>
         <li>
           <strong>Vision Transformer Based Classification of Gastrointestinal Ulcers Using WCE Images.</strong>
-          <strong>Srijita Bandopadhyay</strong>, Joydeep Roy Chowdhury, Rahul Shaw, Swarna Paul, and Soumen Banerjee. Accepted at CIPR-2024.
+          <strong>Srijita Bandopadhyay</strong>, Joydeep Roy Chowdhury, Rahul Shaw, Swarna Paul, and Soumen Banerjee.
+          CIPR-2024.
+        </li>
+        <li>
+          <strong>Lungs Disease Classification Using Transformed Chest X-Ray Images Based on Deep Neural Networks.</strong>
+          Bhavaraju Anuraag, <strong>Srijita Bandopadhyay</strong>, and Soumen Banerjee. CIPR-2024.
+        </li>
+        <li>
+          <strong>Deep Ensemble Feature Extraction Based Classification of Bleeding Regions Using Wireless Capsule Endoscopy Images.</strong>
+          <strong>Srijita Bandopadhyay</strong>, Kyamelia Roy, Sheli Sinha Chaudhuri, Soumen Banerjee, and Korhan Cengiz.
+          Intelligent Data Analytics for Bioinformatics and Biomedical Systems, 2024.
+        </li>
+        <li>
+          <strong>Diagnosis of Intestinal Diseases Using Endoscopy Images Based on Encoder-Attention DeepNet.</strong>
+          Kyamelia Roy, Sheli Sinha Chaudhuri, Jaroslav Frnda, <strong>Srijita Bandopadhyay</strong>, Soumen Banerjee, and Jan Nedoma.
+          Submitted to Signal, Image and Video Processing, Springer.
         </li>
         <li>
           <strong>Deep Ensemble Feature Extraction based Classification of Brain Tumor using MRI Images.</strong>
-          <strong>Srijita Bandopadhyay</strong>, Rahul Shaw, Joydeep Roy Chowdhury, Sanskar Gupta, Kumar Ashish and Soumen Banerjee. Accepted at IEEE IATMSI-2024.
+          <strong>Srijita Bandopadhyay</strong>, Rahul Shaw, Joydeep Roy Chowdhury, Sanskar Gupta, Kumar Ashish, and Soumen Banerjee.
+          IEEE-IATMSI, 2024.
         </li>
         <li>
-          <strong>Detection of Tomato Leaf Diseases for Agro-Based Industries Using Novel PCA DeepNet.</strong>
-          Kyamelia Roy, Sheli Sinha Chaudhuri, Jaroslav Frnda, <strong>Srijita Bandopadhyay</strong>, IshanJyoti Ray, Soumen Banerjee and Jan Nedoma.
-          <em>IEEE Access</em>, 2023.
-          <a href="https://ieeexplore.ieee.org/abstract/document/10042407" target="_blank" rel="noreferrer">[Paper]</a>
+          <strong>Diagnoses of Covid-19 Using Radiographic Chest X-Ray Images Based on Deep Neural Networks.</strong>
+          Kyamelia Roy, Sheli Sinha Chaudhuri, <strong>Srijita Bandopadhyay</strong>, IshanJyoti Ray, Yagyashree Acharya, Somava Nath, and Soumen Banerjee.
+          COMSYS-2022, Springer, 2023.
         </li>
       </ol>
     </section>
@@ -116,21 +119,20 @@
     <section id="experience" class="section">
       <h2>Experience</h2>
       <ul class="plain-list">
-        <li><strong>Undergraduate Research Assistant</strong>, University of Engineering and Management, Kolkata, India.</li>
-        <li><strong>Data Engineering Intern</strong>, LTIMindtree, India.</li>
-        <li><strong>Assistant Research Team Manager</strong>, Beat the Virus Startup, Mumbai, India.</li>
-        <li><strong>Reviewer</strong>, Computers and Electronics in Agriculture, Elsevier.</li>
+        <li><strong>Graduate Research Assistant, SLIM Lab</strong>, Michigan State University, Aug. 2025 - Present.</li>
+        <li><strong>Cloud Engineer</strong>, LTIMindtree, Apr. 2024 - Jul. 2025.</li>
+        <li><strong>Undergraduate Research Assistant</strong>, University of Engineering and Management, Jun. 2020 - Apr. 2024.</li>
+        <li><strong>Data Engineering Intern</strong>, LTIMindtree, Feb. 2023 - May 2023.</li>
       </ul>
     </section>
 
-    <section id="awards" class="section">
-      <h2>Awards</h2>
-      <ul class="plain-list">
-        <li>Chancellor's Award for Academic Excellence 2023.</li>
-        <li>Certificate of Appreciation for Journal Publication.</li>
-        <li>Certificate of Merit for securing 1st position in Electronics and Communication Engineering for 2020-2021.</li>
-        <li>Invited talk on AI/ML based smart systems for energy, healthcare, and agriculture.</li>
-      </ul>
+    <section id="cv" class="section cv-section">
+      <h2>CV</h2>
+      <p>
+        My current resume is available here as a PDF.
+      </p>
+      <a class="button" href="SB-RESUME.pdf" target="_blank" rel="noreferrer">Open CV</a>
+      <a class="button secondary" href="SB-RESUME.pdf" download>Download CV</a>
     </section>
   </main>
 </body>
