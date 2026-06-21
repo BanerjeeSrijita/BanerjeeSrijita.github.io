@@ -173,34 +173,6 @@ p {
   color: var(--ink);
 }
 
-.cv-section p {
-  margin-bottom: 16px;
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  margin: 8px 10px 0 0;
-  padding: 0 16px;
-  border: 1px solid var(--blue);
-  border-radius: 8px;
-  background: var(--blue);
-  color: #fff;
-  font-size: 0.98rem;
-  font-weight: 850;
-}
-
-.button.secondary {
-  background: #fff;
-  color: var(--blue);
-}
-
-.button:hover {
-  text-decoration: none;
-}
-
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
