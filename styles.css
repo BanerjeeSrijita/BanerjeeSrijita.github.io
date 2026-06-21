@@ -156,7 +156,7 @@ p {
 
 .date {
   display: inline-block;
-  min-width: 70px;
+  min-width: 118px;
   color: var(--gold);
   font-weight: 850;
 }
